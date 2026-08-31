@@ -1,6 +1,7 @@
 
 from my_new_project import my_amazing_function, my_sick_function
 
+
 def test_true() -> None:
     """Dummy test🌴🥥"""
     assert True

@@ -16,3 +16,16 @@ packages = ["src/my_new_project"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+]
+test = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.5",
+]
