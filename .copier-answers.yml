@@ -1,0 +1,6 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v0.0.7
+_src_path: https://github.com/GusevaPolina/copier_demo.git
+description: Short one-line project description slay
+project_name: my-new-project
+python_version: '3.14'

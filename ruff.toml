@@ -1,0 +1,23 @@
+line-length = 88
+fix = false
+
+[lint]
+extend-select = [
+    "F",   # Pyflakes,
+    "E",
+    "W",   # Pycodestyle
+    "I",   # Isort
+    "B",   # flake8-bugbear
+    "Q",   # flake8-quotes
+    "T10", # flake8-debugger
+    "LOG", # flake8-logging
+    "PL",  # PyLint
+    "PT",  # flake8-pytest-style
+    "PIE", # flake8-pie
+    "TID", # flake8-tidy-imports
+    "ISC", # flake8-implicit-str-concat
+    "TCH", # flake8-type-checking
+    "C4",  # flake8-comprehensions
+    "RUF", # Ruff specific rules
+    "UP",  # pyupgrade
+]
